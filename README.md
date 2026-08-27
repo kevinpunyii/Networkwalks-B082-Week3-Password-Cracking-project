@@ -412,3 +412,112 @@ The NetworkWalks Password Cracker reports a successful password recovery.
 ## 📄 Task 2 – Step 10: Open the PDF
 
 The recovered password can then be used to open `My Locked PDF1.pdf`. If the password is correct, the protected PDF can be unlocked.
+
+
+
+
+
+
+🔹 TASK 3 – Authorized Web Portal Security Testing
+🎯 Objective
+
+Task 3 documents an authorized security-testing exercise performed against:
+
+medirozahospital.com
+
+The task uses Burp Suite for authentication security testing. After successful login during the authorized project exercise, three password-protected PDF reports were available inside the portal.
+
+The PDF password-protection portion was then tested using the NetworkWalks Hash Calculator and NetworkWalks Password Cracker.
+
+⚠️ This section assumes that written authorization was obtained from the website owner. Do not reproduce this activity against an unrelated production system without explicit authorization.
+
+🛠️ Task 3 – Tools Used
+Tool	Purpose
+Burp Suite	Authentication security testing
+medirozahospital.com	Authorized target portal
+NetworkWalks Hash Calculator	Extracts PDF password-verification hash
+NetworkWalks Password Cracker	Dictionary attack against extracted hash
+Password-protected PDF reports	Test artifacts retrieved after login
+🔄 Task 3 Workflow
+medirozahospital.com
+Burp Suite
+Authentication SecurityTesting
+Successful AuthorizedLogin
+PDF Reports
+patient_report_001.pdf
+patient_report_002.pdf
+patient_report_003.pdf
+NetworkWalks HashCalculator
+PDF Hashes
+NetworkWalks PasswordCracker
+PDF Password Recovery
+🌐 Step 1 – Access the Portal
+
+The portal was accessed as part of the authorized security-testing exercise. Burp Suite was used to observe the authentication workflow.
+
+Because there are no individual screenshots for Task 3, the complete process is documented in one project video.
+
+🎥 Video Evidence
+
+videos/task3-complete-demo.mp4
+
+The video should show the authorized testing workflow from authentication testing through successful login and access to the test resources.
+
+🧪 Step 2 – Authentication Testing with Burp Suite
+
+Burp Suite was used during the authorized assessment to observe and test the authentication workflow. The testing resulted in a successful login within the project environment.
+
+Launch Burp Suite
+Intercept Login Traffic
+Observe AuthenticationWorkflow
+Successful Login
+
+Evidence: videos/task3-complete-demo.mp4
+
+🔒 Before publishing, ensure the video does not expose passwords, session cookies, authorization headers, tokens, API keys, or other sensitive authentication information.
+
+📂 Step 3 – PDF Reports
+
+After successful authorized access, the following password-protected PDF reports were available:
+
+Report File
+patient_report_001.pdf
+patient_report_002.pdf
+patient_report_003.pdf
+
+These files are documented as project/test artifacts.
+
+🔒 Do not upload real patient records or confidential medical information to GitHub. Use sanitized test files or redact all sensitive information.
+
+🔑 Step 4 – Extract PDF Hashes
+patient_report_001.pdf
+NetworkWalks HashCalculator
+patient_report_002.pdf
+patient_report_003.pdf
+Extracted PDF Hashes
+
+The password-protected PDF reports were processed using the NetworkWalks Hash Calculator. The purpose of this step was to extract the PDF password-verification data required for password auditing. The extracted hashes were then used with the NetworkWalks Password Cracker.
+
+🔐 Step 5 – Test PDF Password Protection
+
+The extracted PDF hashes were supplied to the NetworkWalks Password Cracker for dictionary-based password testing.
+
+Extracted PDF Hashes
+NetworkWalks PasswordCracker
+Dictionary-Based Testing
+patient_report_001.pdfresult
+patient_report_002.pdfresult
+patient_report_003.pdfresult
+
+The three test artifacts were:
+
+patient_report_001.pdf
+patient_report_002.pdf
+patient_report_003.pdf
+
+The complete activity is documented in:
+
+videos/task3-complete-demo.mp4
+✅ Step 6 – Results
+
+The results of the authorized exercise are demonstrated in the complete Task 3 video.
