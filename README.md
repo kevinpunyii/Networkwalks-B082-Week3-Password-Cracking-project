@@ -195,21 +195,6 @@ https://github.com/user-attachments/assets/ddf66d81-99e7-47fa-830c-bc7acc82e0eb
 
 ---
 
-## 📁 Suggested GitHub Structure
-
-```mermaid
-flowchart TD
-    Root["JTR-PDF-Password-Recovery/"] --> Readme["README.md"]
-    Root --> Screens["screenshots/"]
-    Screens --> S1[pdf-upload.png]
-    Screens --> S2[pdf-hash-output.png]
-    Screens --> S3[johnny-settings.png]
-    Screens --> S4[johnny-hash-loaded.png]
-    Screens --> S5[johnny-attack.png and password-recovered.png]
-    Screens --> S6[pdf-unlocked.mp4[patient_report_001.pdf](https://github.com/user-attachments/files/31524773/patient_report_001.pdf)
-
-   
-```
 
 ---
 
