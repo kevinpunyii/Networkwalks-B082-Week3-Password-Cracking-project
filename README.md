@@ -296,11 +296,17 @@ The protected PDF `My Locked PDF1.pdf` is selected in the PDF section of the Has
 
 After processing the PDF, the Hash Calculator displays a PDF hash beginning with `$pdf$...`. The calculator provides options to copy or download the extracted hash.
 
-![PDF Hash Output]<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 25 33 AM" src="https://github.com/user-attachments/assets/3fc94361-ceb1-4393-92c4-1e652fd7a74e" />
+
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 24 09 AM" src="https://github.com/user-attachments/assets/aee0547d-e721-43e1-a5c1-8eeb54b5dafa" />
 
 
-<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 27 32 AM" src="https://github.com/user-attachments/assets/56ca7204-c2c6-49b0-8048-bf7f706236c2" />
+<img width="1669" height="810" alt="Screenshot 2026-08-27 at 11 19 05 PM" src="https://github.com/user-attachments/assets/f6dddc78-265a-4b94-b7d4-f6e99a4690a9" />
 
+
+<img width="1033" height="616" alt="Screenshot 2026-08-27 at 11 18 11 PM" src="https://github.com/user-attachments/assets/f890363e-1187-49e1-9dbc-75fd64051644" />
+
+
+<img width="1672" height="974" alt="Screenshot 2026-08-27 at 11 04 44 PM" src="https://github.com/user-attachments/assets/825da8ae-4458-4ed3-96df-b32853851837" />
 
 ---
 
@@ -319,7 +325,7 @@ The next stage uses the **NetworkWalks Password Cracker**, a separate tool desig
 
 The extracted `$pdf$` hash from the Hash Calculator is copied and entered into the `PDF HASH ($PDF$...)` field of the NetworkWalks Password Cracker.
 
-![PDF Hash Input](screenshots/task2-hash-input.png)
+<img width="1672" height="974" alt="Screenshot 2026-08-27 at 11 05 46 PM" src="https://github.com/user-attachments/assets/35c5a7f6-588b-4d35-b34d-c198b761470f" />
 
 ---
 
@@ -348,15 +354,17 @@ flowchart TD
 
 The NetworkWalks Password Cracker reports a successful password recovery.
 
-![Password Cracked Successfully](screenshots/task2-password-recovered.png)
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 27 23 AM" src="https://github.com/user-attachments/assets/5eebe34f-050f-4629-a2c6-93127da10166" />
 
-> 🔒 If publishing the repository publicly, redact the password from the screenshot.
 
 ---
 
 ## 📄 Task 2 – Step 10: Open the PDF
 
 The recovered password can then be used to open `My Locked PDF1.pdf`. If the password is correct, the protected PDF can be unlocked.
+
+<img width="1672" height="989" alt="Screenshot 2026-08-27 at 11 14 23 PM" src="https://github.com/user-attachments/assets/fb8de0d5-3ac2-4d7b-b373-2a27e3bb4359" />
+
 
 ---
 
