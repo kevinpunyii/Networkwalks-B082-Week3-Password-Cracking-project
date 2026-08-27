@@ -191,7 +191,7 @@ The following screenshots can be included as evidence for the project.
 ` |
 | 5 | Start New Attack configuration in Johnny and Johnny displaying the successfully recovered password |`<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 04 24 AM" src="https://github.com/user-attachments/assets/1141893b-00bd-46bd-b492-16cf8bb7c14b" />
 ` |
-| 6 | Recovered password successfully opening the PDF |   ⬇⬇
+| 6 | Recovered password successfully opening the PDF |                             ⬇
 
 
 https://github.com/user-attachments/assets/ddf66d81-99e7-47fa-830c-bc7acc82e0eb
