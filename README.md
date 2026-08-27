@@ -193,6 +193,7 @@ The following screenshots can be included as evidence for the project.
 ` |
 | 6 | Recovered password successfully opening the PDF | https://github.com/user-attachments/assets/ddf66d81-99e7-47fa-830c-bc7acc82e0eb
 
+https://github.com/user-attachments/assets/ddf66d81-99e7-47fa-830c-bc7acc82e0eb
 
 ---
 
