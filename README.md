@@ -1,4 +1,4 @@
-# 🔐 John the Ripper – PDF Password Recovery Using Johnny GUI
+#Task 1 🔐 John the Ripper – PDF Password Recovery Using Johnny GUI
 
 ## 📌 Project Overview
 
@@ -93,7 +93,7 @@ Example (illustrative only):
 $pdf$4*4*128*...
 ```
 
-> ⚠️ The actual hash should not be published in a public repository.
+
 
 ---
 
@@ -176,13 +176,23 @@ The following screenshots can be included as evidence for the project.
 
 | # | Description | Suggested Filename |
 |---|---|---|
-| 1 | PDF being selected in the online hash extraction tool | `pdf-upload.png` |
-| 2 | Generated PDF hash shown in the extraction tool | `pdf-hash-output.png` |
-| 3 | Johnny running and configured with John the Ripper | `johnny-settings.png` |
-| 4 | `pdf_hash.txt` loaded into Johnny's password table | `johnny-hash-loaded.png` |
-| 5 | Start New Attack configuration in Johnny | `johnny-attack.png` |
-| 6 | Johnny displaying the successfully recovered password | `password-recovered.png` |
-| 7 | Recovered password successfully opening the PDF | `pdf-unlocked.png` |
+| 1 | PDF being selected in the online hash extraction tool | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 05 55 AM" src="https://github.com/user-attachments/assets/fcad4ccf-d9d9-42b7-9934-4b0330e323e5" />
+` |
+| 2 | Generated PDF hash shown in the extraction tool | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 06 11 AM" src="https://github.com/user-attachments/assets/e5922818-45ea-4cd9-acb8-4cbc0e2477a9" />
+` |
+| 3 | Johnny running and configured with John the Ripper | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 04 24 AM" src="https://github.com/user-attachments/assets/fa8bdf4e-5551-445a-b1a4-a12abef7cbe5" />
+` |
+| 4 | `pdf_hash.txt` loaded into Johnny's password table | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 05 38 AM" src="https://github.com/user-attachments/assets/0fa17ba9-b210-4373-bf74-a98b4856fc01" />
+` |
+| 5 | Start New Attack configuration in Johnny and Johnny displaying the successfully recovered password |`<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 04 24 AM" src="https://github.com/user-attachments/assets/1141893b-00bd-46bd-b492-16cf8bb7c14b" />
+` |
+| 6 | Recovered password successfully opening the PDF | 
+
+
+
+https://github.com/user-attachments/assets/ddf66d81-99e7-47fa-830c-bc7acc82e0eb
+
+|
 
 ---
 
@@ -196,30 +206,11 @@ flowchart TD
     Screens --> S2[pdf-hash-output.png]
     Screens --> S3[johnny-settings.png]
     Screens --> S4[johnny-hash-loaded.png]
-    Screens --> S5[johnny-attack.png]
-    Screens --> S6[password-recovered.png]
-    Screens --> S7[pdf-unlocked.png]
+    Screens --> S5[johnny-attack.png and password-recovered.png]
+    Screens --> S6[pdf-unlocked.mp4[patient_report_001.pdf](https://github.com/user-attachments/files/31524773/patient_report_001.pdf)
+
+   
 ```
-
----
-
-## 🚫 Files That Should Not Be Uploaded
-
-Do not upload sensitive laboratory files such as:
-
-- `pdf_hash.txt`
-- `My Locked PDF1.pdf`
-- `rockyou.txt`
-- `recovered-password.txt`
-
-unless you are certain that they contain no sensitive information.
-
-For a public GitHub repository, redact:
-
-- Actual PDF password
-- Complete PDF hash
-- Sensitive document contents
-- Personal information
 
 ---
 
@@ -243,49 +234,8 @@ The extracted hash contains information that allows John the Ripper to verify pa
 
 ---
 
-## 🔐 Security & Privacy
 
-This project is intended for:
 
-- Cybersecurity education
-- CTF and laboratory environments
-- Password-auditing practice
-- Recovery of personally owned files
-- Authorized security testing
-
-> ⚠️ Do not use this technique against someone else's protected files without authorization.
-
-**Online Hash Extraction Warning**
-
-Because an online service was used during this laboratory exercise, confidential PDFs should not be uploaded to such services.
-
-Examples of documents that should not be uploaded include:
-
-- Identity documents
-- Bank statements
-- Private certificates
-- Company documents
-- Confidential reports
-
-For sensitive documents, a trusted local extraction process is preferable.
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I learned:
-
-- What PDF password hashes are
-- How PDF hash extraction works
-- How John the Ripper processes password hashes
-- How to use the Johnny graphical interface
-- How to load a password hash into Johnny
-- How to configure and start a password-recovery attack
-- How password complexity affects recovery time
-- Why recovered passwords and password hashes should not be publicly disclosed
-- The importance of authorization when performing password auditing
-
----
 
 # 🔹 TASK 2 – PDF Password Recovery (NetworkWalks Tools)
 
@@ -336,13 +286,19 @@ The NetworkWalks project page provides the laboratory material for the password-
 
 ![NetworkWalks Project Task](screenshots/task2-networkwalks-project.png)
 
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 21 33 AM" src="https://github.com/user-attachments/assets/9a1651c6-2872-4647-b891-3dcdd67388c6" />
+
+
 ---
 
 ## 🔑 Task 2 – Step 2: Open Hash Calculator
 
 The **NetworkWalks Hash Calculator** contains different sections, including Text, File, and PDF. The **PDF** section is used for the password-protected PDF.
 
-![NetworkWalks Hash Calculator](screenshots/task2-hash-calculator.png)
+![NetworkWalks Hash Calculator]
+
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 24 09 AM" src="https://github.com/user-attachments/assets/b6505710-15ba-4b62-b7eb-0eaa3d87f4e8" />
+
 
 ---
 
@@ -356,9 +312,11 @@ The protected PDF `My Locked PDF1.pdf` is selected in the PDF section of the Has
 
 After processing the PDF, the Hash Calculator displays a PDF hash beginning with `$pdf$...`. The calculator provides options to copy or download the extracted hash.
 
-![PDF Hash Output](screenshots/task2-pdf-hash-output.png)
+![PDF Hash Output]<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 25 33 AM" src="https://github.com/user-attachments/assets/3fc94361-ceb1-4393-92c4-1e652fd7a74e" />
 
-> 🔒 For a public GitHub repository, redact the complete hash before publishing the screenshot.
+
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 27 32 AM" src="https://github.com/user-attachments/assets/56ca7204-c2c6-49b0-8048-bf7f706236c2" />
+
 
 ---
 
@@ -367,6 +325,9 @@ After processing the PDF, the Hash Calculator displays a PDF hash beginning with
 The next stage uses the **NetworkWalks Password Cracker**, a separate tool designed for a **dictionary attack**, where password candidates from a wordlist are tested against the PDF hash.
 
 ![NetworkWalks Password Cracker](screenshots/task2-password-cracker.png)
+
+
+<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 25 33 AM" src="https://github.com/user-attachments/assets/69777113-1eff-4361-a232-44e5fe88fda1" />
 
 ---
 
@@ -413,111 +374,144 @@ The NetworkWalks Password Cracker reports a successful password recovery.
 
 The recovered password can then be used to open `My Locked PDF1.pdf`. If the password is correct, the protected PDF can be unlocked.
 
+---
 
+# 🔹 TASK 3 – Authorized Web Portal Security Testing
 
-
-
-
-🔹 TASK 3 – Authorized Web Portal Security Testing
-🎯 Objective
+## 🎯 Objective
 
 Task 3 documents an authorized security-testing exercise performed against:
 
+```
 medirozahospital.com
+```
 
 The task uses Burp Suite for authentication security testing. After successful login during the authorized project exercise, three password-protected PDF reports were available inside the portal.
 
 The PDF password-protection portion was then tested using the NetworkWalks Hash Calculator and NetworkWalks Password Cracker.
 
-⚠️ This section assumes that written authorization was obtained from the website owner. Do not reproduce this activity against an unrelated production system without explicit authorization.
 
-🛠️ Task 3 – Tools Used
-Tool	Purpose
-Burp Suite	Authentication security testing
-medirozahospital.com	Authorized target portal
-NetworkWalks Hash Calculator	Extracts PDF password-verification hash
-NetworkWalks Password Cracker	Dictionary attack against extracted hash
-Password-protected PDF reports	Test artifacts retrieved after login
-🔄 Task 3 Workflow
-medirozahospital.com
-Burp Suite
-Authentication SecurityTesting
-Successful AuthorizedLogin
-PDF Reports
-patient_report_001.pdf
-patient_report_002.pdf
-patient_report_003.pdf
-NetworkWalks HashCalculator
-PDF Hashes
-NetworkWalks PasswordCracker
-PDF Password Recovery
-🌐 Step 1 – Access the Portal
+
+---
+
+## 🛠️ Task 3 – Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Burp Suite | Authentication security testing |
+| medirozahospital.com | Authorized target portal |
+| NetworkWalks Hash Calculator | Extracts PDF password-verification hash |
+| NetworkWalks Password Cracker | Dictionary attack against extracted hash |
+| Password-protected PDF reports | Test artifacts retrieved after login |
+
+---
+
+## 🔄 Task 3 Workflow
+
+```mermaid
+flowchart TD
+    A[medirozahospital.com] --> B[Burp Suite]
+    B --> C[Authentication Security Testing]
+    C --> D[Successful Authorized Login]
+    D --> E[PDF Reports]
+    E --> E1[patient_report_001.pdf]
+    E --> E2[patient_report_002.pdf]
+    E --> E3[patient_report_003.pdf]
+    E1 --> F[NetworkWalks Hash Calculator]
+    E2 --> F
+    E3 --> F
+    F --> G[PDF Hashes]
+    G --> H[NetworkWalks Password Cracker]
+    H --> I[PDF Password Recovery]
+
+    style A fill:#f8d7da,stroke:#333
+    style I fill:#d4edda,stroke:#333
+```
+
+---
+
+## 🌐 Step 1 – Access the Portal
 
 The portal was accessed as part of the authorized security-testing exercise. Burp Suite was used to observe the authentication workflow.
 
-Because there are no individual screenshots for Task 3, the complete process is documented in one project video.
+---
 
-🎥 Video Evidence
-
-videos/task3-complete-demo.mp4
-
-The video should show the authorized testing workflow from authentication testing through successful login and access to the test resources.
-
-🧪 Step 2 – Authentication Testing with Burp Suite
+## 🧪 Step 2 – Authentication Testing with Burp Suite
 
 Burp Suite was used during the authorized assessment to observe and test the authentication workflow. The testing resulted in a successful login within the project environment.
 
-Launch Burp Suite
-Intercept Login Traffic
-Observe AuthenticationWorkflow
-Successful Login
+```mermaid
+flowchart LR
+    A[Launch Burp Suite] --> B[Intercept Login Traffic]
+    B --> C[Observe Authentication Workflow]
+    C --> D[Successful Login]
+```
 
-Evidence: videos/task3-complete-demo.mp4
+---
 
-🔒 Before publishing, ensure the video does not expose passwords, session cookies, authorization headers, tokens, API keys, or other sensitive authentication information.
-
-📂 Step 3 – PDF Reports
+## 📂 Step 3 – PDF Reports
 
 After successful authorized access, the following password-protected PDF reports were available:
 
-Report File
-patient_report_001.pdf
-patient_report_002.pdf
-patient_report_003.pdf
+| Report File |
+|---|
+| `patient_report_001.pdf (https://github.com/user-attachments/files/31524782/patient_report_001.pdf)` |
+| `patient_report_002.pdf (https://github.com/user-attachments/files/31524798/patient_report_002.pdf)` |
+| `patient_report_003.pdf (https://github.com/user-attachments/files/31524803/patient_report_003.pdf)` |
 
 These files are documented as project/test artifacts.
 
-🔒 Do not upload real patient records or confidential medical information to GitHub. Use sanitized test files or redact all sensitive information.
 
-🔑 Step 4 – Extract PDF Hashes
-patient_report_001.pdf
-NetworkWalks HashCalculator
-patient_report_002.pdf
-patient_report_003.pdf
-Extracted PDF Hashes
+---
+
+## 🔑 Step 4 – Extract PDF Hashes
+
+```mermaid
+flowchart TD
+    A[patient_report_001.pdf] --> D[NetworkWalks Hash Calculator]
+    B[patient_report_002.pdf] --> D
+    C[patient_report_003.pdf] --> D
+    D --> E[Extracted PDF Hashes]
+```
 
 The password-protected PDF reports were processed using the NetworkWalks Hash Calculator. The purpose of this step was to extract the PDF password-verification data required for password auditing. The extracted hashes were then used with the NetworkWalks Password Cracker.
 
-🔐 Step 5 – Test PDF Password Protection
+---
+
+## 🔐 Step 5 – Test PDF Password Protection
 
 The extracted PDF hashes were supplied to the NetworkWalks Password Cracker for dictionary-based password testing.
 
-Extracted PDF Hashes
-NetworkWalks PasswordCracker
-Dictionary-Based Testing
-patient_report_001.pdfresult
-patient_report_002.pdfresult
-patient_report_003.pdfresult
+```mermaid
+flowchart TD
+    A[Extracted PDF Hashes] --> B[NetworkWalks Password Cracker]
+    B --> C[Dictionary-Based Testing]
+    C --> D[patient_report_001.pdf result]
+    C --> E[patient_report_002.pdf result]
+    C --> F[patient_report_003.pdf result]
+```
 
 The three test artifacts were:
 
-patient_report_001.pdf
-patient_report_002.pdf
-patient_report_003.pdf
+- `[patient_report_001.pdf]`
+- `patient_report_002.pdf`
+- `patient_report_003.pdf `
 
 The complete activity is documented in:
 
-videos/task3-complete-demo.mp4
-✅ Step 6 – Results
+```
+
+## videos/task3-complete-demo.mp4
+
+https://github.com/user-attachments/assets/9a796151-0910-4755-a9db-331d21b79333
+
+
+
+
+```
+
+---
+
+## ✅ Step 6 – Results
 
 The results of the authorized exercise are demonstrated in the complete Task 3 video.
