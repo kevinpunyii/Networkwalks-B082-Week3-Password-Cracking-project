@@ -185,7 +185,8 @@ The following screenshots can be included as evidence for the project.
 ` |
 | 2 | Generated PDF hash shown in the extraction tool | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 06 11 AM" src="https://github.com/user-attachments/assets/e5922818-45ea-4cd9-acb8-4cbc0e2477a9" />
 ` |
-| 3 | Johnny running and configured with John the Ripper | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 04 24 AM" src="https://github.com/user-attachments/assets/fa8bdf4e-5551-445a-b1a4-a12abef7cbe5" />
+| 3 | Johnny running and configured with John the Ripper | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 04 32 AM" src="https://github.com/user-attachments/assets/8a5a84da-875a-4c45-9e7f-749049a7c13d" />
+
 ` |
 | 4 | `pdf_hash.txt` loaded into Johnny's password table | `<img width="1197" height="842" alt="Screenshot 2026-08-27 at 11 05 38 AM" src="https://github.com/user-attachments/assets/0fa17ba9-b210-4373-bf74-a98b4856fc01" />
 ` |
