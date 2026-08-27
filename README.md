@@ -45,9 +45,8 @@ flowchart TD
 
 The laboratory file used for this project was:
 
-```
-My Locked PDF1.pdf
-```
+
+My Locked PDF1.pdf|[My-Locked-PDF1.pdf](https://github.com/user-attachments/files/31525342/My-Locked-PDF1.pdf)
 
 The PDF was password-protected so that the password-recovery process could be demonstrated in an authorized environment.
 
@@ -455,9 +454,9 @@ After successful authorized access, the following password-protected PDF reports
 
 | Report File |
 |---|
-| `patient_report_001.pdf (https://github.com/user-attachments/files/31524782/patient_report_001.pdf)` |
-| `patient_report_002.pdf (https://github.com/user-attachments/files/31524798/patient_report_002.pdf)` |
-| `patient_report_003.pdf (https://github.com/user-attachments/files/31524803/patient_report_003.pdf)` |
+| patient_report_001.pdf |(https://github.com/user-attachments/files/31525295/patient_report_003.pdf)
+| patient_report_002.pdf |(https://github.com/user-attachments/files/31525285/patient_report_002.pdf)
+| patient_report_003.pdf |(https://github.com/user-attachments/files/31525283/patient_report_001.pdf)
 
 These files are documented as project/test artifacts.
 
@@ -499,23 +498,13 @@ The three test artifacts were:
 
 The complete activity is documented in:
 
-```
+
 
 ## videos/task3-complete-demo.mp4
 
-
-
-https://github.com/user-attachments/assets/e903c481-de7a-43f6-9d59-d3eb76d2fbfd
-
-
-
-
-
-
-```
+[https://github.com/user-attachments/asset](https://github.com/user-attachments/assets/d08daf17-eccd-4f47-b49e-c80710d39758)
 
 ---
 
 ## ✅ Step 6 – Results
-
 The results of the authorized exercise are demonstrated in the complete Task 3 video.
